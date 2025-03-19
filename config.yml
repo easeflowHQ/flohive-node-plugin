@@ -1,8 +1,8 @@
 ethereumClient:
   rpcNodes:
-    - "https://mawari-network-testnet.rpc.caldera.xyz/infra-partner-http"
-  chainId: 629274
-  registry: 0x1b914A8c0Bb0896B6Ecb69ad199569332FeC5caa
+    - "https://arb1.arbitrum.io/rpc"
+  chainId: 42161	
+  registry: 0x4b914A8c0Bb0896B6Ecb69ad199569332FeC5caa
   paginationChunkSize: 100
   gasLimit: 24000000
 network: ethereum
@@ -11,4 +11,3 @@ heartbeatPeriodSeconds: 43200
 checkJobsPeriodSeconds: 10
 plugins:
   - plugins/signature-scan-demo.so
-  - plugins/signature-scan-demo-v2.so
